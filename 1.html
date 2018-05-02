@@ -5,26 +5,102 @@
   <title>최단비</title>
   <meta charset="utf-8">
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117388636-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117388636-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-117388636-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-117388636-1');
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Anton|Do+Hyeon|Gothic+A1|Gugi|Nanum+Pen+Script" rel="stylesheet">
+  <style>
+    body {
+      margin: 0
+    }
+
+    h1 {
+      font: bold 5rem/2 'Do Hyeon', sans-serif;
+      text-align: center;
+      border-bottom: 1px solid #000000;
+      margin: 0;
+      background-color: #cce6ff
+    }
+
+    li{
+      color: #ffffff;
+    }
+
+    a:link {
+      color: black;
+      text-decoration: none;
+      font-family: 'GothicA1', sans-serif;
+    }
+
+    a:visited {
+      color: #003566;
+      text-decoration: none;
+      font-family: 'GothicA1', sans-serif;
+    }
+
+    a:hover {
+      color: DodgerBlue;
+      text-decoration: none;
+      font-family: 'GothicA1', sans-serif;
+    }
+
+    .left:link {
+      color: #ffffff;
+      text-decoration: none;
+      font-family: 'GothicA1', sans-serif;
+    }
+
+    .left:visited {
+      color: #ffffff;
+      text-decoration: none;
+      font-family: 'GothicA1', sans-serif;
+    }
+
+    .left:hover {
+      color: DodgerBlue;
+      text-decoration: none;
+      font-family: 'GothicA1', sans-serif;
+    }
+
+    #grid {
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+
+    #grid ol {
+      padding-left: 33px;
+      border-right: 1px solid #000000;
+      margin-top: 0;
+      padding-top: 25px;
+      background-color: #003566
+    }
+
+    #grid #article {
+      padding-left: 25px;
+      font: 1rem 'GothicA1', sans-serif;
+    }
+  </style>
 </Head>
 
 <body>
   <h1><a href="index.html">단비</a></h1>
-  <ol>
-    <li><a href="1.html"> 최단비</a></li>
-    <li><a href="2.html"> 프로필</a></li>
-  </ol>
-  <h2>단비</h2>
-  <p>
-    <h4>1. 사전적 의미</h4> 1.1. 달콤한 비 - 甘雨(時雨)<br> 가뭄이 오도록 한동안 비가 오지 않은 상태에서 오랜만에 내리는 비를 뜻하거나, <br>오랜 무더위나 황사 등으로 비가 필요한 시점에 때 맞춰 내려지는 비를 뜻한다.<br> 특히 농민들에게는 더없이 소중한 존재이다.<br> 다만 과유불급이라고 홍수가 나도록 내리면 곤란하다.<br>이런 경우에는 단비라고 부르지도 않지만...
-    <br><img src="drop.png" width="10%" vspace="50pixels"></p>
-  <p>
-    1.2. 사람 이름<br>어감이 좋아서 사람의 이름으로도 쓰인다.<br> 보통 순우리말 이름으로 쓰이나, 한자 이름에서 발음을 맞추어 쓰일 때도 있다.<br> 시우(時雨)라는 이름과 뜻이 똑같다.<br> 그리고 취소선이 쳐져 있지만 만화 아따아따의 막내딸 포요타 주라(保与田ジュラ) 한국 이름이 '나단비'이다.</p>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html" class="left"> 최단비</a></li>
+      <li><a href="2.html" class="left"> 프로필</a></li>
+    </ol>
+    <div id="article">
+      <h2>단비</h2>
+      <p>
+        <h4>1. 사전적 의미</h4> 1.1. 달콤한 비 - 甘雨(時雨)<br> 가뭄이 오도록 한동안 비가 오지 않은 상태에서 오랜만에 내리는 비를 뜻하거나, <br>오랜 무더위나 황사 등으로 비가 필요한 시점에 때 맞춰 내려지는 비를 뜻한다.<br> 특히 농민들에게는 더없이 소중한 존재이다.<br> 다만 과유불급이라고 홍수가 나도록 내리면 곤란하다.<br>이런 경우에는 단비라고 부르지도 않지만...
+        <br><img src="drop.png" width="10%" vspace="50pixels"><br> 1.2. 사람 이름<br>어감이 좋아서 사람의 이름으로도 쓰인다.<br> 보통 순우리말 이름으로 쓰이나, 한자 이름에서 발음을 맞추어 쓰일 때도 있다.<br> 시우(時雨)라는 이름과 뜻이 똑같다.<br> 그리고 취소선이 쳐져 있지만 만화 아따아따의 막내딸 포요타 주라(保与田ジュラ) 한국 이름이 '나단비'이다.</p>
+    </div>
 </body>

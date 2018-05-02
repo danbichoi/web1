@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -8,45 +9,123 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117388636-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'UA-117388636-1');
   </script>
+  <link href="https://fonts.googleapis.com/css?family=Anton|Do+Hyeon|Gothic+A1|Gugi|Nanum+Pen+Script" rel="stylesheet">
+  <style>
+    body {
+      margin: 0
+    }
+
+    h1 {
+      font: bold 5rem/2 'Do Hyeon', sans-serif;
+      text-align: center;
+      border-bottom: 1px solid #000000;
+      margin: 0;
+      background-color: #cce6ff
+    }
+
+    li{
+      color: #ffffff;
+    }
+
+    a:link {
+      color: black;
+      text-decoration: none;
+      font-family: 'GothicA1', sans-serif;
+    }
+
+    a:visited {
+      color: #003566;
+      text-decoration: none;
+      font-family: 'GothicA1', sans-serif;
+    }
+
+    a:hover {
+      color: DodgerBlue;
+      text-decoration: none;
+      font-family: 'GothicA1', sans-serif;
+    }
+
+    .left:link {
+      color: #ffffff;
+      text-decoration: none;
+      font-family: 'GothicA1', sans-serif;
+    }
+
+    .left:visited {
+      color: #ffffff;
+      text-decoration: none;
+      font-family: 'GothicA1', sans-serif;
+    }
+
+    .left:hover {
+      color: DodgerBlue;
+      text-decoration: none;
+      font-family: 'GothicA1', sans-serif;
+    }
+
+    #grid {
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+
+    #grid ol {
+      padding-left: 33px;
+      border-right: 1px solid #000000;
+      margin-top: 0;
+      padding-top: 25px;
+      background-color: #003566
+    }
+
+    #grid #article {
+      padding-left: 25px;
+      font: 1rem 'GothicA1', sans-serif;
+    }
+  </style>
 </Head>
 
 <body>
   <h1><a href="index.html">단비</a></h1>
-  <ol>
-    <li><a href="1.html">최단비</a></li>
-    <li><a href="2.html">프로필</a></li>
-  </ol>
-  <p>
-    <h2>Hello</h2> 안녕하세요. 저는 <strong>경영학과 20172911 <u>최단비</u></strong>입니다.<br>
-    <img src="hello.jpg" width="30%"></p>
-  <p><iframe width="560" height="315" src="https://www.youtube.com/embed/DfG6VKnjrVw?rel=0&amp;start=10" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-  </p>
-  <p>
-    <div id="disqus_thread"></div>
-    <script>
-      /**
-       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-      /*
-      var disqus_config = function () {
-      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-      };
-      */
-      (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document,
-          s = d.createElement('script');
-        s.src = 'https://https-danbichoi-github-io-web1.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-      })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></p>
+  <div id="grid">
+    <ol>
+      <li ><a href="1.html" class="left">최단비</a></li>
+      <li ><a href="2.html" class="left">프로필</a></li>
+    </ol>
+    <div id="article">
+      <p>
+        <img src="hello.jpg" width="30%"><br>안녕하세요. 저는 <strong>경영학과 20172911 <u>최단비</u></strong>입니다.
+      </p>
+      <p><iframe width="560" height="315" src="https://www.youtube.com/embed/DfG6VKnjrVw?rel=0&amp;start=10" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </p>
+    </div>
+    <p>
+      <div id="disqus_thread"></div>
+      <script>
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document,
+            s = d.createElement('script');
+          s.src = 'https://https-danbichoi-github-io-web1.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></p>
 
 </body>
 
